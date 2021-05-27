@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Jungle in Your Room</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="css/locomotive-scroll.min.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/room.css">
+  <link rel="stylesheet" href="css/hover.css">
+</head>
+<body id="top">
+    <section id="room" data-scroll-container>
+      <div class="plants">
+        <svg version="1.1" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1324 662">
+          <g id="Artboard_1" data-name="Artboard 1" class="cls-1">
+            <image id="back_Image" data-name="Layer 13 copy1 Image" width="1324" height="662" xlink:href="img/back.png"/>
+            <g id="monstera" class='svg'>
+              <a class="pl-link" href="monstera.html">
+                <image id="monstera_color" class="plant" width="351" height="531" transform="translate(43 14)" xlink:href="img/monstera.png"/>
+              </a>
+            </g>
+            <g id="fikus" class='svg'>
+              <a class="pl-link" href="ficus.html">
+                <image id="ficus_color" class="plant" data-name="ficus color" width="173" height="317" transform="translate(512 94)" xlink:href="img/ficus.png"/>
+              </a>
+            </g>
+            <g id="sansevieria" class='svg'>
+              <a class="pl-link" href="sansevieria.html">
+                <image id="sansevieria_color" class="plant" width="134" height="285" transform="translate(1019 320)" xlink:href="img/sansevieria.png"/>
+              </a>
+            </g>
+            <g id="tolstyanka" class='svg'>
+              <a class="pl-link" href="crassula.html">
+                <image id="tolstyanka_color" class="plant" width="113" height="127" transform="translate(400 313)" xlink:href="img/tolstyanka.png"/>
+              </a>
+            </g>
+            <g id="spotifillum" class='svg'>
+              <a class="pl-link" href="spatifillum.html">
+                <image id="spotifillum_color" class="plant" width="181" height="214" transform="translate(859 30)" xlink:href="img/spotifillum.png"/>
+              </a>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </section>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src="js/locomotive-scroll.min.js"></script>
+
+<script>
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true,
+        direction: 'horizontal'
+    });
+</script>
+
+</body>
+</html>

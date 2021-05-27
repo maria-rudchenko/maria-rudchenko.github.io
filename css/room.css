@@ -1,0 +1,36 @@
+#room {
+	height: 100vh;
+	background-image: url(../img/bg_room.jpg);
+	background-size: contain;
+	background-repeat: repeat-x;
+	min-width:100vw;
+}
+
+.plants {
+	/*background-color:#fff;*/
+	background-image: url(../img/bg_room.jpg);
+	background-size: contain;
+	background-repeat: repeat-x;
+	height: 100%;
+	margin: auto;
+}
+
+.plants svg {
+	width:auto;
+	height: 100%;
+	margin: auto;
+}
+
+a.pl-link {
+	display: block;
+	cursor: pointer;
+}
+
+a.pl-link > image {
+	opacity:0;
+	transition: all .2s ease-out;
+}
+
+a.pl-link:hover > image {
+	opacity:1;
+}

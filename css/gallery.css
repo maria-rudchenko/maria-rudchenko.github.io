@@ -1,0 +1,40 @@
+
+
+
+
+#top .lg-backdrop {
+	background-color: #fff;
+}
+
+#top .lg-actions .lg-prev {
+	margin-left: 60px;
+}
+
+#top .lg-actions .lg-next, #top .lg-actions .lg-prev,
+#top .lg-actions .lg-next, #top .lg-actions .lg-next {
+	background-color: transparent;
+	color: #000;
+}
+
+#top .lg-actions .lg-next:hover, #top .lg-actions .lg-prev:hover {
+	color: #c30;
+}
+
+#top .lg-toolbar {
+	background: transparent;
+}
+
+#top .lg-toolbar .lg-icon {
+	background: transparent;
+	color: #000;
+}
+
+#top .lg-toolbar .lg-icon:hover {
+	color: #c30;
+}
+
+#top #lg-counter {
+	margin-left: 60px;
+	color: #777;
+	background: transparent;
+}

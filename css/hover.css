@@ -1,0 +1,107 @@
+header {
+	position: relative;
+}
+
+header .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+#top header .header-bg {
+	background-image:url("../img/bg.png");
+	background-color: #888;
+	background-blend-mode: multiply;
+	filter: grayscale(100%);
+	background-size: cover;
+	opacity: .7;
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+header .head:hover {
+    text-decoration: none;
+    /*color: #fff;*/
+}
+
+
+header .cursor {
+  width: 200px;
+  height: 200px;
+  /*border: 3px solid white;*/
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 2px -3px 41px -1px rgba(250, 250, 250, 0.64);
+  transition: all 0.2s ease;
+  pointer-events: none;
+  background:url("../img/bg.png");
+  /*filter: grayscale(100%);*/
+  /*filter: invert(80%);*/
+  mix-blend-mode: difference;
+  background-size: cover;
+  background-attachment:fixed;
+ -webkit-background-clip: content-box;
+  text-align:center;
+  /*z-index: -1;*/
+}
+
+header .title {
+  color: #fff;
+  /*font-size: 150px;*/
+  letter-spacing: .1em;
+  /*position: relative;*/
+  /*display: block;*/
+  text-transform: uppercase;
+  /*-webkit-text-stroke: 2px #ffffff;*/
+  /*text-stroke: 2px #ffffff;*/
+  /*-webkit-text-fill-color: transparent;*/
+  /*text-fill-color: transparent;*/
+  /*color: transparent;*/
+  transition: all 0.4s linear;
+  /*opacity: 0.6;*/
+  /*transition: opacity .2s linear;*/
+  user-select: none;
+  width: 100%;
+  max-width: 1024px;
+  padding: 1em;
+  mix-blend-mode: hard-light;
+}
+
+header .title:hover {
+  opacity: 1;
+  /*transition: opacity .2s linear;*/
+  -webkit-text-fill-color: white;
+  text-fill-color: white;
+  mix-blend-mode: hard-light;
+  /*mix-blend-mode: difference;*/
+}
+
+header .title:hover ~ .cursor {
+  /*transform: scale(1.4);*/
+  /*mix-blend-mode: difference;*/
+  /*background: white;*/
+  width: 200px;
+  height: 200px;
+}
+
+.head-about {
+	color: #fff;
+	opacity: .7;
+	position: absolute;
+	left: 50%;
+	bottom: 15%;
+	transition: opacity .3s ease;
+	transform: translateX(-50%);
+	z-index:1;
+}
+
+.head-about:hover {
+	opacity: .8;
+}
